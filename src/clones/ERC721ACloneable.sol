@@ -409,7 +409,7 @@ contract ERC721ACloneable is IERC721A, Initializable {
                         // Invariant:
                         // There will always be an initialized ownership slot
                         // (i.e. `ownership.addr != address(0) && ownership.burned == false`)
-                        // before an unintialized ownership slot
+                        // before an uninitialized ownership slot
                         // (i.e. `ownership.addr == address(0) && ownership.burned == false`)
                         // Hence, `curr` will not underflow.
                         //
